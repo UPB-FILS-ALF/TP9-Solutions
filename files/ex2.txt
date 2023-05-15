@@ -1,0 +1,25 @@
+if (a > 0)
+{
+  result = 'positive';
+}
+else
+{
+  result = 'negative';
+}
+
+Three Address Code avec pile:
+push else
+push a
+push 0
+gt
+ifFalse goto
+push 'positive'
+pop result
+push end
+goto
+push else
+label
+push 'negative'
+pop result
+push end
+label

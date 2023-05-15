@@ -1,0 +1,6 @@
+function _division (int _var1, float _var2)
+{
+    return _var1 * _var2;
+};
+
+_division (3, 2+5);

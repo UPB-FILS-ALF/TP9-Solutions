@@ -1,0 +1,30 @@
+function double (nr)
+{
+    return nr*2;
+}
+
+double (7/2);
+
+Three Address Code avec pile:
+push start
+goto
+push double
+label
+push nr
+param
+push nr
+push 2
+mul
+pop t1
+return
+
+push start
+label
+push 7
+push 2
+div
+pop t2
+param
+push 1
+push double
+call

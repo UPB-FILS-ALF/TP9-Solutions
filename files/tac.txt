@@ -1,0 +1,17 @@
+push start
+goto
+push _division
+label
+push _var1
+push _var2
+mul
+return
+push 3
+param
+push 2
+push 5
+add
+param
+push 2
+push _division
+call

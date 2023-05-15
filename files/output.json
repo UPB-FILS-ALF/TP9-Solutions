@@ -1,0 +1,117 @@
+{
+  "ast": {
+    "statements": [
+      {
+        "functionName": "_division",
+        "parameters": [
+          {
+            "name": "_var1",
+            "id": "functionParameter",
+            "type": "int",
+            "line": 1
+          },
+          {
+            "name": "_var2",
+            "id": "functionParameter",
+            "type": "float",
+            "line": 1
+          }
+        ],
+        "instructions": {
+          "statements": [],
+          "id": "statements",
+          "line": 1
+        },
+        "returnNode": {
+          "statement": {
+            "statement": {
+              "left": {
+                "value": "_var1",
+                "id": "value",
+                "type": "int",
+                "line": 3
+              },
+              "right": {
+                "value": "_var2",
+                "id": "value",
+                "type": "float",
+                "line": 3
+              },
+              "op": "*",
+              "id": "expression",
+              "type": "float",
+              "line": 3
+            },
+            "id": "return",
+            "line": 3
+          },
+          "id": "return",
+          "line": 3
+        },
+        "id": "function",
+        "line": 1
+      },
+      {
+        "functionName": "_division",
+        "parameters": [
+          {
+            "value": 3,
+            "id": "value",
+            "type": "int",
+            "line": 6
+          },
+          {
+            "left": {
+              "value": 2,
+              "id": "value",
+              "type": "int",
+              "line": 6
+            },
+            "right": {
+              "value": 5,
+              "id": "value",
+              "type": "int",
+              "line": 6
+            },
+            "op": "+",
+            "id": "expression",
+            "type": "int",
+            "line": 6
+          }
+        ],
+        "id": "functionCall",
+        "type": "function",
+        "line": 6
+      }
+    ],
+    "id": "statements",
+    "line": 1
+  },
+  "symbolTable": {
+    "symbolTable": {
+      "_var1": {
+        "type": "int"
+      },
+      "_var2": {
+        "type": "float"
+      },
+      "_division": {
+        "type": "functionParameters",
+        "value": [
+          {
+            "name": "_var1",
+            "id": "functionParameter",
+            "type": "int",
+            "line": 1
+          },
+          {
+            "name": "_var2",
+            "id": "functionParameter",
+            "type": "float",
+            "line": 1
+          }
+        ]
+      }
+    }
+  }
+}
